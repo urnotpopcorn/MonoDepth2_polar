@@ -26,7 +26,7 @@ import datasets
 import networks
 from IPython import embed
 
-import lpips
+# import lpips
 
 from PIL import Image  # using pillow-simd for increased speed
 
