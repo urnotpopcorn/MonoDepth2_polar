@@ -913,8 +913,8 @@ class Trainer:
         index1 = index1_y * cur_width + index1_x
         index1 = torch.from_numpy(index1).cuda().squeeze().to(dtype=torch.int64)
                         
-
-        index_x = 
+        # TODO:
+        return None
 
     def compute_losses(self, inputs, outputs):
         """Compute the reprojection and smoothness losses for a minibatch
