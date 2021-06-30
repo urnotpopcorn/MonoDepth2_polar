@@ -1105,7 +1105,7 @@ class Trainer:
                         
                         optical_flow = self.extract_flow(outputs[("sample", frame_id, scale)])
                         optical_flow2 = pts2-pts1
-                        acc = self.compute_flow_acc(optical_flow, optical_flow2)
+                        # acc = self.compute_flow_acc(optical_flow, optical_flow2)
 
                         if ("corr", frame_id, scale) not in outputs:
                             outputs[("corr", frame_id, scale)] = list()
